@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://auth0-sdk-tests.auth0.com/api/v2/users/auth0%7C5d1668d58fbb120ea0c19799/logs?per_page=2
+    uri: https://auth0-sdk-tests.auth0.com/api/v2/users/auth0%7C5d8ba34c0ec0a20e04a38e6c/logs?per_page=2
     body:
       encoding: US-ASCII
       string: ''
@@ -12,11 +12,11 @@ http_interactions:
       Accept-Encoding:
       - gzip, deflate
       User-Agent:
-      - rest-client/2.0.2 (darwin17.7.0 x86_64) ruby/2.5.1p57
+      - rest-client/2.0.2 (darwin18.5.0 x86_64) ruby/2.6.0p0
       Content-Type:
       - application/json
       Auth0-Client:
-      - eyJuYW1lIjoicnVieS1hdXRoMCIsInZlcnNpb24iOiI0LjcuMCIsImVudiI6eyJydWJ5IjoiMi41LjEifX0=
+      - eyJuYW1lIjoicnVieS1hdXRoMCIsInZlcnNpb24iOiI0LjguMCIsImVudiI6eyJydWJ5IjoiMi42LjAifX0=
       Authorization:
       - Bearer API_TOKEN
       Host:
@@ -27,21 +27,23 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 28 Jun 2019 19:22:11 GMT
+      - Wed, 25 Sep 2019 17:26:48 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
       - chunked
       Connection:
       - keep-alive
+      Server:
+      - nginx
       Link:
-      - <http://auth0-sdk-tests.auth0.com/api/v2/users/auth0%7C5d1668d58fbb120ea0c19799/logs?per_page=2&page=0>;
-        rel="first", <http://auth0-sdk-tests.auth0.com/api/v2/users/auth0%7C5d1668d58fbb120ea0c19799/logs?per_page=2&page=0>;
+      - <http://auth0-sdk-tests.auth0.com/api/v2/users/auth0%7C5d8ba34c0ec0a20e04a38e6c/logs?per_page=2&page=0>;
+        rel="first", <http://auth0-sdk-tests.auth0.com/api/v2/users/auth0%7C5d8ba34c0ec0a20e04a38e6c/logs?per_page=2&page=0>;
         rel="last"
       Ot-Tracer-Spanid:
-      - 639fae9675940ca0
+      - 539d8a6b4535ce05
       Ot-Tracer-Traceid:
-      - 2205766b0b922353
+      - 063fc3ad286c2ab3
       Ot-Tracer-Sampled:
       - 'true'
       X-Ratelimit-Limit:
@@ -49,11 +51,11 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '9'
       X-Ratelimit-Reset:
-      - '1561749733'
+      - '1569432410'
       Vary:
       - origin,accept-encoding
       Cache-Control:
-      - private, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      - no-cache
       Content-Encoding:
       - gzip
       Strict-Transport-Security:
@@ -63,7 +65,7 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        H4sIAAAAAAAAA6VTbW/TMBD+K1E+oqa1nRfH/USFhgQIWrFO60AochK3NUvjzHZYo5H/zjnNWAEJ8RJ/iH333N1zz9kfH/ySW+HPfYIwC1ASkHSN2ZzgeUynLCYf/Ilvu8YhjIF9KUyhZWOlqsEEhkLVtSjG85URuuYHEay4MfdKl8GitXtRW1nwAXKOz2QJIXDONsfojW4Vz1F0/6W62ThYJSHsBMFrY18vN8ebZnl9cQzJy7vP15uuepfiF/j9Fb19grvaELBYvfIujk2ltNDeommqp/KycQkJnSJYGAwtUM74DqLBsQSy2nMu5M28s9PQueWyMv78wc9V2bn/X5K0ouZDGQ6ioMCUt4EVxjpZxQFyg0e3eedswfdNO0r6fAiaFuoA8GaUFyKeue8f5jBK9Usdv5/4d63QQ4MHYffKVVktL9cQtFfG8a/UTtbTHwgpDY4oCie+Fka1unDJZ5WaubxmVkoN5Jz+f6RV34+DGeBDoa9xiZMkLeN0m+eYIMFRgRll7HGGPzf0ewWN1XDvd91j+jNTNt53eBg850aACxo+UWEIuYeCEpJiRnBMWRyylIY0IhRFhERxSBCNUkaTEJMI4ZgklFGX/r8TSPNW5bICalteGeFYnaaZyXqrYFx9/+kbX3HxUtADAAA=
+        H4sIAAAAAAAAA6VTbW/TMBD+K5E/oqZ1nDenn6jQkABBK9Zp3RCKnMRrzdw4sx3WaOS/c06zrYCEeEk+xHf33N1zzzmfHlDFLEdzRHCQ+TjzSbwO0jlJ5mEyDaPsGk2Q7RqHMAbOFTelFo0VqgYXOEpV17wc7QvDdc323F8xY+6VrvxFa3e8tqJkA+QUn4sKUsDON4fonW4VK3B0/1VebRxMCkg7QoK1sW+Xm8NVs7w8O4Tk9d2Xy00nP9DgVfDxIr19hrvekLBYvfHODo1Ummtv0TTyub1oXEGSTjG8AThaoJyzLWRDYAlktedC2Jt5J9YwuWVCGjR/QIWqOvf9S5KW12xow0AU7Jvq1rfcWCcr30NtiOi26JzPfzq0o6Qvh6RpqfYAb0Z5IeOFe/5hD6NUv/RB/QTdtVwPA+653SnXZbU8X0PSThnHX6qtqKc/EFIaAlEUTpDmRrW6dMVnUs1cXTOrhAZyTv8/0qrvx8UM8KHRt7iiBQujEvMSM4I5jlhIeVI+7vDngX6voLEa7v22eyx/4srH+w4/BiuY4RCCgY9UMozdj4IzEgcpScKE0gRjHOCAUJyClWUkpHEahZhSEtMkSTIKJ6jx3wWEea8KIYHaDZOGO1bHbeaivlGwrr7//B3fXsld0AMAAA==
     http_version: 
-  recorded_at: Fri, 28 Jun 2019 19:22:11 GMT
-recorded_with: VCR 4.0.0
+  recorded_at: Wed, 25 Sep 2019 17:26:48 GMT
+recorded_with: VCR 5.0.0

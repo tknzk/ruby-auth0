@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: https://auth0-sdk-tests.auth0.com/api/v2/users/auth0%7C5d1668d58fbb120ea0c19799/permissions
+    uri: https://auth0-sdk-tests.auth0.com/api/v2/users/auth0%7C5d8ba34c0ec0a20e04a38e6c/permissions
     body:
       encoding: UTF-8
       string: '{"permissions":[{"permission_name":"rubytest-test-permission-for-users","resource_server_identifier":"rubytest-test-api-for-users"}]}'
@@ -12,11 +12,11 @@ http_interactions:
       Accept-Encoding:
       - gzip, deflate
       User-Agent:
-      - rest-client/2.0.2 (darwin17.7.0 x86_64) ruby/2.5.1p57
+      - rest-client/2.0.2 (darwin18.5.0 x86_64) ruby/2.6.0p0
       Content-Type:
       - application/json
       Auth0-Client:
-      - eyJuYW1lIjoicnVieS1hdXRoMCIsInZlcnNpb24iOiI0LjcuMCIsImVudiI6eyJydWJ5IjoiMi41LjEifX0=
+      - eyJuYW1lIjoicnVieS1hdXRoMCIsInZlcnNpb24iOiI0LjguMCIsImVudiI6eyJydWJ5IjoiMi42LjAifX0=
       Authorization:
       - Bearer API_TOKEN
       Content-Length:
@@ -29,17 +29,19 @@ http_interactions:
       message: Created
     headers:
       Date:
-      - Fri, 28 Jun 2019 19:22:15 GMT
+      - Wed, 25 Sep 2019 17:26:54 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
       - chunked
       Connection:
       - keep-alive
+      Server:
+      - nginx
       Ot-Tracer-Spanid:
-      - 177d446f0b0a1337
+      - 04f327636689dd9e
       Ot-Tracer-Traceid:
-      - 3cf2c03e7a50d2ea
+      - 60cc79df4af679d8
       Ot-Tracer-Sampled:
       - 'true'
       X-Ratelimit-Limit:
@@ -47,11 +49,11 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '9'
       X-Ratelimit-Reset:
-      - '1561749737'
+      - '1569432416'
       Vary:
       - origin,accept-encoding
       Cache-Control:
-      - private, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      - no-cache
       Content-Encoding:
       - gzip
       Strict-Transport-Security:
@@ -63,5 +65,5 @@ http_interactions:
       string: !binary |-
         H4sIAAAAAAAAA6uuBQBDv6ajAgAAAA==
     http_version: 
-  recorded_at: Fri, 28 Jun 2019 19:22:15 GMT
-recorded_with: VCR 4.0.0
+  recorded_at: Wed, 25 Sep 2019 17:26:55 GMT
+recorded_with: VCR 5.0.0

@@ -2,21 +2,21 @@
 http_interactions:
 - request:
     method: post
-    uri: https://auth0-sdk-tests.auth0.com/api/v2/users/auth0%7C5d1668d58fbb120ea0c19799/identities
+    uri: https://auth0-sdk-tests.auth0.com/api/v2/users/auth0%7C5d8ba34c0ec0a20e04a38e6c/identities
     body:
       encoding: UTF-8
-      string: '{"provider":"auth0","user_id":"auth0|5d1668d6cef3310eafaaed4d"}'
+      string: '{"provider":"auth0","user_id":"auth0|5d8ba34d5b46cb0d6c4d977e"}'
     headers:
       Accept:
       - "*/*"
       Accept-Encoding:
       - gzip, deflate
       User-Agent:
-      - rest-client/2.0.2 (darwin17.7.0 x86_64) ruby/2.5.1p57
+      - rest-client/2.0.2 (darwin18.5.0 x86_64) ruby/2.6.0p0
       Content-Type:
       - application/json
       Auth0-Client:
-      - eyJuYW1lIjoicnVieS1hdXRoMCIsInZlcnNpb24iOiI0LjcuMCIsImVudiI6eyJydWJ5IjoiMi41LjEifX0=
+      - eyJuYW1lIjoicnVieS1hdXRoMCIsInZlcnNpb24iOiI0LjguMCIsImVudiI6eyJydWJ5IjoiMi42LjAifX0=
       Authorization:
       - Bearer API_TOKEN
       Content-Length:
@@ -29,17 +29,19 @@ http_interactions:
       message: Created
     headers:
       Date:
-      - Fri, 28 Jun 2019 19:22:10 GMT
+      - Wed, 25 Sep 2019 17:26:47 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
       - chunked
       Connection:
       - keep-alive
+      Server:
+      - nginx
       Ot-Tracer-Spanid:
-      - 6e89be3d4c7729c7
+      - 06d0f31d4a9cae74
       Ot-Tracer-Traceid:
-      - 6dadeea63c9d1113
+      - 10c4a53d7fa25b38
       Ot-Tracer-Sampled:
       - 'true'
       X-Ratelimit-Limit:
@@ -47,11 +49,11 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '9'
       X-Ratelimit-Reset:
-      - '1561749731'
+      - '1569432408'
       Vary:
       - origin,accept-encoding
       Cache-Control:
-      - private, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      - no-cache
       Content-Encoding:
       - gzip
       Strict-Transport-Security:
@@ -61,7 +63,7 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        H4sIAAAAAAAAA6WPwWrDMAyG30XnZCTLkiU5bbAHGIydSimKLTNBYg/bySil714ldFsPPYT2ZuRPv/5vc4Bv7wz39IYRoT0ADcg9tODHbh8pxPTvMQbyFgd6wTF+ZQ/KDZDAPLikfyH5WpJ2E3k2TBra6Ec6JqCctaQiOyt7n2c8fccQfpzX6auEk42scEESmBN3LPtQ6ryqal3Wpuvyx4wwU3nz3DQCicTEmrxQSzsZcfhwilFcDPZBLt+gmgaSuhr9fpX0P35F/9zifv9KkSmKXPwNIuknvc5/ewKK8N1k7AEAAA==
+        H4sIAAAAAAAAA6WPwYrCQAyG3yXnVoa1VrenFXwAQTyJSJpJ2UA7IzNTRcR3Nxbd9eBBdm9D5suf/9ucYR98Iy0vMCFUZ+AOpYUKQl+fEseU/zz6yMFhx1/Yp28zIt9BBrfBM/2A9GtI2h04SCNsoUqh50sG5J1jSuKd7q3veL7EGI8+2Hyu4eySEA5IBrfEneg+TOysxnFBhsngh2FT4HjGJSmkEgexHJQa2ulI4sqToLo02Ea9/AfVPLLWtRhOb0n/4i/07y3+728ndVFSbWxJhf2cTvk9/+0VSL37IewBAAA=
     http_version: 
-  recorded_at: Fri, 28 Jun 2019 19:22:10 GMT
-recorded_with: VCR 4.0.0
+  recorded_at: Wed, 25 Sep 2019 17:26:47 GMT
+recorded_with: VCR 5.0.0

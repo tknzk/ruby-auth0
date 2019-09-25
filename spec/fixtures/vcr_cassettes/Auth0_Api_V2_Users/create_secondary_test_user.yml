@@ -5,22 +5,22 @@ http_interactions:
     uri: https://auth0-sdk-tests.auth0.com/api/v2/users
     body:
       encoding: UTF-8
-      string: '{"email":"rubytest-rubytest-username-secondary@auth0.com","password":"H4WbJ7Oa","connection":"Username-Password-Authentication","name":"rubytest-username-secondary"}'
+      string: '{"email":"rubytest-rubytest-username-secondary@auth0.com","password":"K5Tm0qCw46IzD","connection":"Username-Password-Authentication","name":"rubytest-username-secondary"}'
     headers:
       Accept:
       - "*/*"
       Accept-Encoding:
       - gzip, deflate
       User-Agent:
-      - rest-client/2.0.2 (darwin17.7.0 x86_64) ruby/2.5.1p57
+      - rest-client/2.0.2 (darwin18.5.0 x86_64) ruby/2.6.0p0
       Content-Type:
       - application/json
       Auth0-Client:
-      - eyJuYW1lIjoicnVieS1hdXRoMCIsInZlcnNpb24iOiI0LjcuMCIsImVudiI6eyJydWJ5IjoiMi41LjEifX0=
+      - eyJuYW1lIjoicnVieS1hdXRoMCIsInZlcnNpb24iOiI0LjguMCIsImVudiI6eyJydWJ5IjoiMi42LjAifX0=
       Authorization:
       - Bearer API_TOKEN
       Content-Length:
-      - '165'
+      - '170'
       Host:
       - auth0-sdk-tests.auth0.com
   response:
@@ -29,17 +29,19 @@ http_interactions:
       message: Created
     headers:
       Date:
-      - Fri, 28 Jun 2019 19:21:58 GMT
+      - Wed, 25 Sep 2019 17:26:37 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
       - chunked
       Connection:
       - keep-alive
+      Server:
+      - nginx
       Ot-Tracer-Spanid:
-      - 7b99c1c17151a2c8
+      - 3a00add449828441
       Ot-Tracer-Traceid:
-      - 114a0d1f6fac1be1
+      - 41d252001efa3356
       Ot-Tracer-Sampled:
       - 'true'
       X-Ratelimit-Limit:
@@ -47,11 +49,11 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '8'
       X-Ratelimit-Reset:
-      - '1561749720'
+      - '1569432399'
       Vary:
       - origin,accept-encoding
       Cache-Control:
-      - private, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      - no-cache
       Content-Encoding:
       - gzip
       Strict-Transport-Security:
@@ -61,7 +63,7 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        H4sIAAAAAAAAA41RTWsCMRD9LwE9uR/ZrNu4IK2XngttLy1FxmSioZpdkqxFrP+9yVpFLEghhxfmfQxv9gQ3oNekJrZb7Dw6n5xB59Aa2GDiUDRGgt09QOdXeSqaDRmROLrU/aUHUu8+36LVSqMktYK1wxHpWgke5Rx8cChyOknyKin4C53UBa3HPC0YfQvy6DnXQUf65O+xpFXFZSVQMUZzBAWAspSB2mrhOxs3WnnfujrLXLq0sAUPNm6cHWGmyjJHrqgqqeKMMykZBS4qShflHS6qezcteT6003Y5lNPea8Bmg+IxPCFNeq4g/I+WLiDbpa1Zxla0+Lxu5nZFWqLx2mt0pH7fkzAwKLxuTLB4PQmewLmvxspkFuIjX0BPuazoVjm22YYceyoyxrrnRmhY/97k8DEiwuI/rnL4AVjra+M0AgAA
+        H4sIAAAAAAAAA41RXWvCMBT9LwF9sm3SxrYWZPNlz4NtLxtDbpNbDdO0JKlDnP99SZ0iG8ggDyfc83E590BwC2pDKmL6eu/QuugCeotGwxYji6LVEsz+Hnq3prFot2RCwuha95fuSYP7codGNQolqRrYWJyQvpPgUC7BeYeUsllEZ1E6fWZFleZVVsQpLV69PHguldeRIflrKssaMi6nNc9FTWUuuJwVBXpqp4TrTdho7VxnqySx8crADhyYsHFygknDOcWyYQ1nTZmVmZQZg1LkjNW8wDq/s3Ne0rGZd6uxnA9eo2wxSh/8E1LHlwr8/2RpPTJ93OlVaEWJj9/N3K5ISdROOYWWVG8H4gcahVOt9hYvZ8EjWPvZGhktfHzgCxgo1xXdKse0O59jzkWGWPvUCgWbn5sc3ydEGPzHVY7f44lSZjQCAAA=
     http_version: 
-  recorded_at: Fri, 28 Jun 2019 19:21:58 GMT
-recorded_with: VCR 4.0.0
+  recorded_at: Wed, 25 Sep 2019 17:26:37 GMT
+recorded_with: VCR 5.0.0
